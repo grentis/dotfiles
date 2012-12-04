@@ -7,8 +7,6 @@
 [user]
         name = grentis
         email = grentis@gmail.com
-[credential]
-        helper = osxkeychain
 [alias]
         co = checkout
         count   = !git shortlog -sn
