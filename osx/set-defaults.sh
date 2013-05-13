@@ -39,3 +39,14 @@ defaults write com.apple.Safari IncludeDevelopMenu -bool true
 defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true
 defaults write com.apple.Safari "com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled" -bool true
 defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
+
+
+defaults write com.apple.menuextra.battery ShowTime -string "YES"
+defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
+defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
+defaults write com.apple.BezelServices kDim -bool true
+defaults write com.apple.BezelServices kDimTime -int 300
+chflags nohidden ~/Library
+defaults write com.apple.dock expose-group-by-app -bool false
+
+

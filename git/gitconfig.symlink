@@ -5,7 +5,7 @@
 [hub]
         protocol = https
 [user]
-        name = grentis
+	name = grentis
         email = grentis@gmail.com
 [alias]
         co = checkout
